@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "maven": {
+    "packageRules": [{
+      "matchUpdateTypes": ["patch"]
+    }],
+    "automerge": false
+  }
+}
