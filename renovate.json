@@ -1,18 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "hostRules": [
-    {
-      "hostType": "maven",
-      "username": "d157d8e8-af72-4ae1-ae0e-2d1923dc103e",
-      "password": "968894d9-eaa8-4954-ba86-4b392a3ee264"
-    }
-  ],
-
   "packageRules": [
     {
       "updateTypes": [
         "patch"
       ],
-      "automerge": true
+      "automerge": false
     }]
 }
