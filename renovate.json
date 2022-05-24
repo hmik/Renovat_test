@@ -12,8 +12,7 @@
       "automerge": true
     },
     {
-      "managers": ["maven"],
-      "registryUrls": ["https://nexus.rz.babiel.com/repository/public"]
+      "managers": ["maven"]
     }
   ]
 }
