@@ -6,9 +6,6 @@
   "major": {
     "enabled": false
   },
-  "minor": {
-    "enabled": false
-  },
   "packageRules": [
     {
       "matchUpdateTypes": [
