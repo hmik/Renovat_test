@@ -3,15 +3,17 @@
   "extends": [
     ":dependencyDashboard"
   ],
-
-  "enabledManagers": ["maven"],
-
+  "major": {
+    "enabled": false
+  },
+  "minor": {
+    "enabled": false
+  },
   "packageRules": [
     {
       "matchUpdateTypes": [
         "patch"
-      ],
-      "automerge": false
+      ]
     }
   ]
 }
