@@ -5,5 +5,11 @@
   "automerge": true,
   "major": {
     "automerge": false
+  },
+  "maven": {
+    "packageRules": [{
+      "matchUpdateTypes": ["patch"]
+    }],
+    "automerge": false
   }
 }
