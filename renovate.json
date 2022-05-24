@@ -3,16 +3,24 @@
   "extends": [
     "config:base"],
   "enabledManagers": ["maven"],
+  "hostRules": [
+    {
+      "hostType": "maven",
+      "username": "d157d8e8-af72-4ae1-ae0e-2d1923dc103e",
+      "password": "968894d9-eaa8-4954-ba86-4b392a3ee264"
+    }
+  ],
 
   "packageRules": [
     {
       "updateTypes": [
         "patch"
       ],
-      "automerge": false
+      "automerge": true
     },
     {
-      "managers": ["maven"]
+      "managers": ["maven"],
+      "registryUrls": ["https://nexus.rz.babiel.com/repository/public"]
     }
   ]
 }
