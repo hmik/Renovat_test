@@ -9,7 +9,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": [
-        "patch", "minor"
+        "patch"
       ]
     }
   ]
