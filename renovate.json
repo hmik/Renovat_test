@@ -3,6 +3,6 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
-      "enabled": false
+      "enabled": true
     }]
 }
