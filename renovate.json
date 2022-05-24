@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "updateTypes": [
-        "patch"
+        "patch", "minor"
       ],
       "automerge": false
     }]
